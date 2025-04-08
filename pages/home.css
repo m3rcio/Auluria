@@ -4,7 +4,7 @@
     font-family: "Inter", sans-serif;
 }
 
-body{
+header,#about-and-jobs{
     font-weight: bold;
 }
 
@@ -46,9 +46,18 @@ section{
 }
 
 #imagem1{
-    width: 1000px;
+    width: 850px;
 }
 #imagem1 img{
     width: 99%;
-    height: 450px;
+    height: 480px;
+}
+
+section h1,p{
+    text-align: left;
+    width: 600px;
+}
+
+section span{
+     color:rgba(141, 0, 184, 0.993);
 }
