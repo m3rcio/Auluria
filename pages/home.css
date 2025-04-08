@@ -1,0 +1,21 @@
+body{
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin-right: 15px;
+}
+
+ul{
+    list-style: none;
+}
