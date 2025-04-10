@@ -84,6 +84,17 @@ section{
     height: 600px;
 }
 
+.imagem3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagem3 img{
+    width: 1200px;
+    height: 600px;
+}
+
 section h1,p{
     text-align: left;
     width: 680px;
