@@ -10,13 +10,15 @@
     font-style: normal;
     font-display: swap; 
 }
-
-#div-1,#div-2{
+#div-1{
+    margin-left: 4px;
+}
+#div-1,#div-2,#about-and-jobs{
     font-weight: 800;
 }
 
-header,#about-and-jobs{
-   
+#about-and-jobs{
+    cursor: pointer;
 }
 
 header{
