@@ -107,3 +107,28 @@ section h1,p{
 section span{
      color:rgba(141, 0, 184, 0.993);
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+    
+
+.div2 {
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+
+.div6 {
+    grid-row-start: 3;
+}
