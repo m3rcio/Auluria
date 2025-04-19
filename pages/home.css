@@ -147,4 +147,14 @@ footer {
 
 .send-email-input{
     padding: 8px;
+    width: 250px;
+}
+
+.outras-informacoes{
+    display: flex;
+    flex-direction: row;
+}
+.outras-informacoes li{
+    margin-left: 10px;
+    margin-right: 10px;
 }
