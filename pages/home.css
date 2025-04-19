@@ -132,3 +132,7 @@ section span{
 .div6 {
     grid-row-start: 3;
 }
+
+footer .div1,.div6{
+    border: 1px solid black;
+}
