@@ -133,6 +133,18 @@ section span{
     grid-row-start: 3;
 }
 
-footer .div1,.div6{
-    border: 1px solid black;
+footer {
+    border-top: 1px solid rgb(126, 126, 126);
+}
+
+.send-email-btn{
+    padding: 10px;
+    background-color:rgba(141, 0, 184, 0.993);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.send-email-input{
+    padding: 8px;
 }
