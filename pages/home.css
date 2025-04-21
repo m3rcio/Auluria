@@ -134,7 +134,7 @@ section span{
 }
 
 footer {
-    border-top: 1px solid rgb(126, 126, 126);
+    border-top: 1px solid rgb(163, 159, 159);
 }
 
 .send-email-btn{
@@ -157,29 +157,42 @@ footer {
 .outras-informacoes li{
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.parent li,.parent p{
+    font-size: 14pt;
+}
+
+.parent li{
+    cursor: pointer;
 }
 
 .div1{
-    border: 1px solid black;
     height: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.div1 h1{
+    font-size: 50pt;
 }
 
 .div2{
-    border: 1px solid rgb(182, 0, 0);
     height: 80px;
     margin-top: 60px;
+    margin-left: 80px;
 }
 
-.parent{
-    border: 1px solid black;
-    
-}
 
 .div4{
     width: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
-    margin-right: 50px;
+    margin-right: 40px;
+}
+
+.div3{
+    /* border: 1px solid black; */
 }
 
 .div4 p {
@@ -188,4 +201,8 @@ footer {
     word-wrap: break-word;  
     width: 500px;
     overflow-wrap: break-word;
+}
+
+.div6{
+    margin-left: 80px;
 }
