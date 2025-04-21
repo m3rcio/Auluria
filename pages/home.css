@@ -159,3 +159,13 @@ footer {
     margin-right: 10px;
 }
 
+.div1{
+    border: 1px solid black;
+    height: 80px;
+}
+
+.div2{
+    border: 1px solid rgb(182, 0, 0);
+    height: 80px;
+    margin-top: 60px;
+}
