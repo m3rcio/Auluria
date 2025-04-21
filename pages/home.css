@@ -169,3 +169,23 @@ footer {
     height: 80px;
     margin-top: 60px;
 }
+
+.parent{
+    border: 1px solid black;
+    
+}
+
+.div4{
+    width: 500px;
+    border: 1px solid black;
+    max-width: 100%;
+    margin-right: 50px;
+}
+
+.div4 p {
+    word-break: break-word;
+    white-space: normal;
+    word-wrap: break-word;  
+    width: 500px;
+    overflow-wrap: break-word;
+}
