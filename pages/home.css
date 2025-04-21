@@ -157,8 +157,14 @@ footer {
 .outras-informacoes{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.outras-informacoes li{
+
+.lista-informacoes{
+    display: flex;
+    flex-direction: row;
+}
+.lista-informacoes li{
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
