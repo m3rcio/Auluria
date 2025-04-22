@@ -11,7 +11,14 @@
     font-display: swap; 
 }
 #div-1{
-    margin-left: 4px;
+    margin-left: 20px;
+}
+#div-1 ul>li{
+    margin-left: 20px;
+    
+}
+header li{
+    font-size: 13pt;
 }
 #div-1,#div-2,#about-and-jobs{
     font-weight: 800;
@@ -19,6 +26,7 @@
 
 #about-and-jobs{
     cursor: pointer;
+    font-size: 13pt;
 }
 
 header{
