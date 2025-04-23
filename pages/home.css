@@ -21,7 +21,7 @@ header li{
     font-size: 13pt;
 }
 #div-1,#div-2,#about-and-jobs{
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 #about-and-jobs{
@@ -113,7 +113,7 @@ section h1,p{
 }
 
 section span{
-     color:rgba(141, 0, 184, 0.993);
+    color:rgba(9, 20, 168, 0.993);
 }
 
 .parent {
@@ -143,11 +143,12 @@ section span{
 
 footer {
     border-top: 1px solid rgb(163, 159, 159);
+    border-top-style: solid;
 }
 
 .send-email-btn{
     padding: 14px;
-    background-color:rgba(141, 0, 184, 0.993);
+    background-color:rgba(9, 20, 168, 0.993);
     color: white;
     border: none;
     cursor: pointer;
@@ -179,7 +180,7 @@ footer {
 }
 
 .parent li,.parent p{
-    font-size: 14pt;
+    font-size: 18px;
 }
 
 .parent li{
