@@ -38,13 +38,11 @@ This project simulates the homepage of a fictional company that provides **music
 - Applying strategic breakpoints for responsive design
 - Using CSS best practices (`margin`, `colors`,`flexbox`)
 
----
+<br><br>
 
-## 📸 Preview
+## 📸 See Live: [auluria.com](https://auluria.vercel.app/)
 
-> *Add a screenshot or link to the live site (GitHub Pages, Vercel, etc.)*
-
----
+<br>
 
 ## 📂 How to Use
 
@@ -60,7 +58,7 @@ Made with ❤ by Adelmércio
 
 <br><br><br><br><br><br>
 # 🇵🇹 Versão Portuguesa
-# 🎶 Auluria — Página de Aterragem
+# 🎶 Auluria — Landing Page
 
 Bem-vindo à **Auluria**, uma Landing Page criada como parte de um desafio do [Frontend Practice](https://www.frontendpractice.com)! 🚀 Site original da Ableton: https://www.ableton.com/en/about/
 
@@ -99,13 +97,11 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
 - Aplicar pontos de rutura estratégicos para responsividade  
 - Utilizar boas práticas de CSS (`margin`, `cores`, `flexbox`)
 
----
+<br><br>
 
-## 📸 Pré-visualização
+## 📸 Veja o site: [auluria.com](https://auluria.vercel.app/)
 
-> *Adiciona uma captura de ecrã ou link para o site ao vivo (GitHub Pages, Vercel, etc.)*
-
----
+<br>
 
 ## 📂 Como Usar
 
