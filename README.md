@@ -52,7 +52,8 @@ This project simulates the homepage of a fictional company that provides **music
 
 
 ## 📧 Contact
-For feedback or questions: [My Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/)
+For feedback or questions: [My Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/) <br>
+My Github: [Github](https://www.github.com/m3rcio/)
 
 Made with ❤ by Adelmércio
 
@@ -110,6 +111,7 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
    git clone https://github.com/m3rcio/Auluria.git
 
 ## 📧 Contacto
-Para feedback ou perguntas: [Meu Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/)
+Para feedback ou perguntas: [Meu Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/) <br>
+Meu Github: [Github](https://www.github.com/m3rcio/)
 
 Made with ❤ by Adelmércio
