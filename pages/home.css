@@ -48,6 +48,8 @@ header ul li{
     cursor: pointer;
 }
 
+
+
 ul{
     list-style: none;
 }
@@ -77,6 +79,20 @@ section{
 #about-and-jobs li{
     margin-right: 15px;
 }
+section{
+    width: 100vw;
+}
+.imagem1{
+    width: 100%;
+}
+
+.imagem1 img{
+    width: 99%;
+    height: 250px;
+}
+@media (min-width: 768px) {
+    
+
 
 .imagem1{
     width: 1250px;
@@ -234,4 +250,6 @@ input::placeholder {
 .icons{
     width: 50px;
     height: 50px;
+}
+
 }
