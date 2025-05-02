@@ -1,5 +1,6 @@
 *{
     font-family: 'FuturaPTBook', sans-serif;
+    
 }
 
 
@@ -10,6 +11,51 @@
     font-style: normal;
     font-display: swap; 
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu-button {
+    padding: 10px 20px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(9, 20, 168, 0.993);
+    color: #fff;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .dropdown-content ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown-content li {
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .divider {
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
 #div-1{
     /* margin-left: 2px; */
 }
@@ -26,7 +72,7 @@ header li{
 
 #about-and-jobs{
     cursor: pointer;
-    font-size: 13pt;
+    font-size: 8pt;
 }
 
 header{
@@ -37,6 +83,7 @@ header{
     border-bottom: 1px solid rgb(126, 126, 126);
     padding-bottom: 10px;
     padding-top: 10px;
+    box-sizing: border-box;
 }
 
 header ul{
@@ -124,6 +171,99 @@ iframe{
     width: 100%; height: 240px;
 }
 
+
+.parent {
+  
+}
+    
+
+
+
+
+footer {
+    border-top: 1px solid rgb(163, 159, 159);
+    border-top-style: solid;
+}
+
+.send-email-btn{
+    background-color:rgba(9, 20, 168, 0.993);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 46px;
+    font-size: 10px;
+}
+
+.send-email-input{
+    padding: 14px;
+    width: 200px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+input::placeholder {
+    font-size: 22px;
+  }
+
+  .parent li,.parent p{
+    font-size: 12px;
+}
+
+.div1{
+    border: 1px solid black;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 2px;
+}
+.div1 h1{
+    font-size: 30pt;
+}
+
+.div2{
+    border: 1px solid black;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+.div4{
+    width: 500px;
+    /* border: 1px solid black; */
+    max-width: 100%;
+    margin-right: 40px;
+}
+
+.div3{
+    border: 1px solid red;
+}
+
+.div4{
+    border: 1px solid red;
+}
+
+.div4 p {
+    word-break: break-word;
+    white-space: normal;
+    word-wrap: break-word;  
+    width: 500px;
+    overflow-wrap: break-word;
+}
+
+.div5{
+    border: 1px solid green;
+}
+.div6{
+    margin-left: 40px;
+    border: 1px solid green;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
 @media (min-width: 768px) {
 .imagem1{
     width: 1250px;
@@ -184,11 +324,6 @@ iframe{
     grid-row-start: 3;
 }
 
-footer {
-    border-top: 1px solid rgb(163, 159, 159);
-    border-top-style: solid;
-}
-
 .send-email-btn{
     /* padding: 14px; */
     background-color:rgba(9, 20, 168, 0.993);
@@ -219,7 +354,7 @@ input::placeholder {
 
 .lista-informacoes{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .lista-informacoes li{
     margin-left: 10px;

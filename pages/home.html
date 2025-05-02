@@ -8,24 +8,29 @@
 </head>
 <body>
     <header>
-        <div id="div-1">
-            <ul>
-            <li>Live</li>
-            <li>Push</li>
-            <li>Link</li>
-            <li>Shop</li>
-            <li>Packs</li>
-            <li>Ajuda</li>
-            <li style="color:rgba(255, 116, 3, 0.993)">Mais +</li>
-            </ul>
-        </div>
-        <div id="div-2">
-            <ul>
-                <li style="color:rgba(9, 20, 168, 0.993); font-weight: bolder;">Experimente de Graça</li>
-                <li>Entrar</li>
-                <li>Sair</li>
-            </ul>
-        </div>
+        <div class="dropdown">
+            <div class="menu-button">Menu</div>
+            <div class="dropdown-content">
+              <div id="div-1">
+                <ul>
+                  <li>Live</li>
+                  <li>Push</li>
+                  <li>Link</li>
+                  <li>Shop</li>
+                  <li>Packs</li>
+                  <li>Ajuda</li>
+                  <li style="color:rgba(255, 116, 3, 0.993)">Mais +</li>
+                </ul>
+              </div>
+              <div class="divider" id="div-2">
+                <ul>
+                  <li style="color:rgba(9, 20, 168, 0.993); font-weight: bolder;">Experimente de Graça</li>
+                  <li>Entrar</li>
+                  <li>Sair</li>
+                </ul>
+              </div>
+            </div>
+          </div>
     </header>
     <main>
         <ul id="about-and-jobs">
@@ -170,4 +175,8 @@
     </main>
     
 </body>
+<script>
+    let ativarMenu= document.getElementsByClassName("menu-button");
+    ativarMenu.addEventListener("click")
+</script>
 </html>
