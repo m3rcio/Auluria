@@ -11,14 +11,14 @@
     font-display: swap; 
 }
 #div-1{
-    margin-left: 20px;
+    /* margin-left: 2px; */
 }
 #div-1 ul>li{
-    margin-left: 20px;
+    /* margin-left: 2px; */
     
 }
 header li{
-    font-size: 13pt;
+    font-size: 8pt;
 }
 #div-1,#div-2,#about-and-jobs{
     font-weight: bolder;
@@ -30,6 +30,7 @@ header li{
 }
 
 header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,7 +45,7 @@ header ul{
 }
 
 header ul li{
-    margin-right: 15px;
+    margin-right: 5px;
     cursor: pointer;
 }
 
@@ -55,9 +56,9 @@ ul{
 }
 
 h1{
-    font-size:30px;
+    font-size:20px;
     font-weight:700;
-    line-height:42px;
+    line-height:26px;
 }
 
 p{
@@ -80,7 +81,7 @@ section{
     margin-right: 15px;
 }
 section{
-    width: 100vw;
+    width: 100%;
 }
 .imagem1{
     width: 100%;
@@ -119,6 +120,10 @@ section span{
     color:rgba(9, 20, 168, 0.993);
 }
 
+iframe{
+    width: 100%; height: 240px;
+}
+
 @media (min-width: 768px) {
 .imagem1{
     width: 1250px;
@@ -150,6 +155,9 @@ section h1,p{
     width: 680px;
 }
 
+iframe{
+    width: 680px; height: 400px;
+}
 
 .parent {
     display: grid;
