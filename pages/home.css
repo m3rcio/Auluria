@@ -90,21 +90,43 @@ section{
     width: 99%;
     height: 250px;
 }
-@media (min-width: 768px) {
-    
-
-
-.imagem1{
-    width: 1250px;
-}
 
 .imagem2{
     width: 100%;
 }
+
+.imagem1 img{
+    width: 99%;
+    height: 250px;
+}
+
+.imagem2 img{
+    width: 99%;
+    height: 250px;
+}
+
+.imagem3 img{
+    width: 99%;
+    height: 250px;
+}
+
+section h1,p{
+    text-align: left;
+    width: 240px;
+}
+
+section span{
+    color:rgba(9, 20, 168, 0.993);
+}
+
+@media (min-width: 768px) {
+.imagem1{
+    width: 1250px;
+}
+
 .imagem1 img{
     width: 99%;
     height: 600px;
-   
 }
 
 .imagem2 img{
@@ -128,9 +150,6 @@ section h1,p{
     width: 680px;
 }
 
-section span{
-    color:rgba(9, 20, 168, 0.993);
-}
 
 .parent {
     display: grid;
