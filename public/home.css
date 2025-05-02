@@ -7,11 +7,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: 'FuturaPTBook';
-    src: url('/fonts/FuturaPTBook.otf') format('opentype'); 
+    src: url('fonts/FuturaPTBook.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
     font-display: swap; 
@@ -292,7 +293,7 @@ input::placeholder {
         margin-left: 20px;
     }
     #div-2{
-        margin-left: 600px;
+        margin-left: 400px;
     }
     #div-1 ul>li{
         margin-left: 20px;
