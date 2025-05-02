@@ -3,6 +3,11 @@
     
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 @font-face {
     font-family: 'FuturaPTBook';
@@ -12,50 +17,76 @@
     font-display: swap; 
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
+@media (max-width: 767px) {
 
-  .menu-button {
-    padding: 10px 20px;
-    background-color: #eee;
-    cursor: pointer;
-  }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(126, 126, 126);
+        padding-bottom: 10px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
 
-  .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: rgba(9, 20, 168, 0.993);
-    color: #fff;
-    width: 100vw;
-    z-index: 1;
-  }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 5px;
+        cursor: pointer;
+    }
 
-  .dropdown-content ul {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+    
+      .menu-button {
+        padding: 10px 20px;
+        background-color: #eee;
+        cursor: pointer;
+      }
+    
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(9, 20, 168, 0.993);
+        color: #fff;
+        width: 100vw;
+        z-index: 1;
+      }
+    
+      .dropdown-content ul {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .dropdown-content li {
+        padding: 8px 10px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+    
+      .dropdown:hover .dropdown-content{
+        display: block;
+      }
+    
+    
+      .divider {
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
+        padding-top: 5px;
+      }
+}
 
-  .dropdown-content li {
-    padding: 8px 10px;
-    cursor: pointer;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-
-  .divider {
-    border-top: 1px solid #ddd;
-    margin-top: 5px;
-    padding-top: 5px;
-  }
 #div-1{
     /* margin-left: 2px; */
 }
@@ -74,28 +105,6 @@ header li{
     cursor: pointer;
     font-size: 8pt;
 }
-
-header{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(126, 126, 126);
-    padding-bottom: 10px;
-    padding-top: 10px;
-    box-sizing: border-box;
-}
-
-header ul{
-    display: flex;
-    flex-direction: row;
-}
-
-header ul li{
-    margin-right: 5px;
-    cursor: pointer;
-}
-
 
 
 ul{
@@ -172,10 +181,7 @@ iframe{
 }
 
 
-.parent {
-  
-}
-    
+
 
 
 
@@ -185,19 +191,23 @@ footer {
     border-top-style: solid;
 }
 
+.parent div{
+  padding-left: 10px;
+}
+    
 .send-email-btn{
     background-color:rgba(9, 20, 168, 0.993);
     color: white;
     border: none;
     cursor: pointer;
-    width: 100px;
-    height: 46px;
+    width: 80px;
+    height: 30px;
     font-size: 10px;
 }
 
 .send-email-input{
-    padding: 14px;
-    width: 200px;
+    padding: 6px;
+    width: 150px;
     background-color: rgb(236, 236, 236);
     border: none;
 }
@@ -211,7 +221,7 @@ input::placeholder {
 }
 
 .div1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 80px;
     margin-top: 100px;
     margin-left: 2px;
@@ -221,42 +231,34 @@ input::placeholder {
 }
 
 .div2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 80px;
-    margin-top: 60px;
-    margin-left: 10px;
+    margin-top: 2px;
 }
 
 
 .div4{
-    width: 500px;
     /* border: 1px solid black; */
-    max-width: 100%;
-    margin-right: 40px;
 }
 
 .div3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.div4{
-    border: 1px solid red;
-}
 
 .div4 p {
     word-break: break-word;
     white-space: normal;
     word-wrap: break-word;  
-    width: 500px;
+    width: 250px;
     overflow-wrap: break-word;
 }
 
 .div5{
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .div6{
-    margin-left: 40px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .icons{
@@ -264,7 +266,99 @@ input::placeholder {
     height: 30px;
 }
 
+/* media query --------------------------------------------------------------------------------- */
+
 @media (min-width: 768px) {
+
+    .dropdown-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .dropdown-content div {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        
+      }
+    .menu-button{
+        display: none;
+    }
+
+    #div-1{
+        margin-left: 20px;
+    }
+    #div-2{
+        margin-left: 600px;
+    }
+    #div-1 ul>li{
+        margin-left: 20px;
+        
+    }
+    header li{
+        font-size: 13pt;
+    }
+    #div-1,#div-2,#about-and-jobs{
+        font-weight: bolder;
+    }
+    
+    #about-and-jobs{
+        cursor: pointer;
+        font-size: 13pt;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(126, 126, 126);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    h1{
+        font-size:30px;
+        font-weight:700;
+        line-height:42px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #about-and-jobs{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #about-and-jobs li{
+        margin-right: 15px;
+    }
+    
 .imagem1{
     width: 1250px;
 }
@@ -354,7 +448,7 @@ input::placeholder {
 
 .lista-informacoes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .lista-informacoes li{
     margin-left: 10px;
