@@ -1,6 +1,6 @@
 # 🇬🇧 English Version
 
-# 🎶 Auluria — Landing Page
+# Auluria — Landing Page
 
 Welcome to **Auluria**, a landing page built as part of a challenge from [Frontend Practice](https://www.frontendpractice.com)! 🚀 original website from Ableton: https://www.ableton.com/en/about/
 
@@ -8,13 +8,13 @@ This project simulates the homepage of a fictional company that provides **music
 
 ---
 
-## 🧩 About the Project
+## About the Project
 
 **Auluria** is a company focused on creating tools for artists, producers, and sound engineers looking for creative solutions in the digital music world. This landing page was developed using only HTML5 and CSS3 — no frameworks — as a way to sharpen layout, styling, and responsive design skills.
 
 ---
 
-## 📱 Features
+## Features
 
 - 🎨 Fully responsive design (mobile, tablet, desktop) 
 - 🧭 Clear and intuitive navigation  
@@ -24,14 +24,14 @@ This project simulates the homepage of a fictional company that provides **music
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5  
 - CSS3 (Flexbox, Media Queries)  
 - Icons8 for visual enhancement  
 ---
 
-## 🔍 What I Learned
+## What I Learned
 
 - Structuring semantic HTML efficiently  
 - Building modern layouts with Flexbox  
@@ -44,14 +44,14 @@ This project simulates the homepage of a fictional company that provides **music
 
 <br>
 
-## 📂 How to Use
+## How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/m3rcio/Auluria.git
 
 
-## 📧 Contact
+## Contact
 For feedback or questions: [My Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/) <br>
 My Github: [Github](https://www.github.com/m3rcio/)
 
@@ -59,7 +59,7 @@ Made with ❤ by Adelmércio
 
 <br><br><br><br><br><br>
 # 🇵🇹 Versão Portuguesa
-# 🎶 Auluria — Landing Page
+# Auluria — Landing Page
 
 Bem-vindo à **Auluria**, uma Landing Page criada como parte de um desafio do [Frontend Practice](https://www.frontendpractice.com)! 🚀 Site original da Ableton: https://www.ableton.com/en/about/
 
@@ -73,7 +73,7 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
 
 ---
 
-## 📱 Funcionalidades
+## Funcionalidades
 
 - 🎨 Design totalmente responsivo (telemóvel, tablet, desktop)  
 - 🧭 Navegação clara e intuitiva  
@@ -83,7 +83,7 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5  
 - CSS3 (Flexbox, Media Queries)  
@@ -91,7 +91,7 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
 
 ---
 
-## 🔍 O Que Aprendi
+## O Que Aprendi
 
 - Estruturar HTML semântico de forma eficiente  
 - Construir layouts modernos com Flexbox  
@@ -100,17 +100,17 @@ A **Auluria** é uma empresa dedicada à criação de ferramentas para artistas,
 
 <br><br>
 
-## 📸 Veja o site: [auluria.com](https://auluria.vercel.app/)
+## Veja o site: [auluria.com](https://auluria.vercel.app/)
 
 <br>
 
-## 📂 Como Usar
+## Como Usar
 
 1. Clona o repositório:
    ```bash
    git clone https://github.com/m3rcio/Auluria.git
 
-## 📧 Contacto
+## Contacto
 Para feedback ou perguntas: [Meu Linkedin](https://www.linkedin.com/in/adelm%C3%A9rcio-almeida/) <br>
 Meu Github: [Github](https://www.github.com/m3rcio/)
 
